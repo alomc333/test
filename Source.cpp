@@ -57,6 +57,7 @@ int main() {
 	SetConsoleOutputCP(1251);
 	Vehiele* h[3] = { new Car(1000, 120), new Bice(1000, 30), new Plane(1000, 500) };
 	for (int i = 0; i < 3; i++) {
-		cout << "Âðåìÿ: " << h[i]->time() << "Ñòîèìîñòü: " << h[i]->cost() << "\n";
+		cout << "Ã‚Ã°Ã¥Ã¬Ã¿: " << h[i]->time() << "Ã‘Ã²Ã®Ã¨Ã¬Ã®Ã±Ã²Ã¼: " << h[i]->cost() << "\n";
 	}
 }
+//223232323
